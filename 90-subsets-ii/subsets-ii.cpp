@@ -1,10 +1,7 @@
 class Solution {
 public:
 
-    void fun(int i,
-             vector<int>& nums,
-             vector<int>& temp,
-             vector<vector<int>>& ans) {
+    void fun(int i,vector<int>& nums,vector<int>& temp, vector<vector<int>>& ans) {
 
         ans.push_back(temp);
 
