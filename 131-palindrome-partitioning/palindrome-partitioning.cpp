@@ -14,7 +14,7 @@ public:
         }
         for(int i=index;i<s.size();i++){
             if (ispalindrome(s,index,i)){
-                temp.push_back(s.substr(index,i-index+1));
+                temp.push_back(s.substr(index,i-index+1));// s.substr(start,length(not ending index)) so i-index+1 gives lenght as this fun needs length as second parameter.
                 func(i+1,s,temp,ans);
                 temp.pop_back();
             }
