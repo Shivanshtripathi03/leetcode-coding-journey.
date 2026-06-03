@@ -22,7 +22,6 @@ class LRUCache {
     Node* tail;
 
 public:
-
     LRUCache(int capacity) {
 
         cap = capacity;
